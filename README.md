@@ -52,20 +52,20 @@ Regla 3: tarifa 2. Si el total de la compra es inferior a veinticinco mil pesos 
 
 ### Requerimientos funcionales
 
-RF01: el sistema debe solicitar al usuario la cantidad de productos a comprar
-RF02: el sistema debe solicitar al usuario la distancia en kilómetros para el envío.
-RF03: el sistema debe calcular el costo total de los productos ingresados (subtotal).
-RF04: el sistema debe aplicar las reglas de negocio para el calculo de costos de envío antes especificados.
-RF05: el sistema debe calcular el valor neto de la compra.
-RF06: el sistema debe calcular el valor de IVA de la compra.
-RF07: el sistema debe mostrar al usuario un resumen con los costos de la compra (neto, IVA y subtotal) más los costos de envío y el total final a pagar.
+- **RF01:** el sistema debe solicitar al usuario la cantidad de productos a comprar
+- **RF02:** el sistema debe solicitar al usuario la distancia en kilómetros para el envío.
+- **RF03:** el sistema debe calcular el costo total de los productos ingresados (subtotal).
+- **RF04:** el sistema debe aplicar las reglas de negocio para el calculo de costos de envío antes especificados.
+- **RF05:** el sistema debe calcular el valor neto de la compra.
+- **RF06:** el sistema debe calcular el valor de IVA de la compra.
+- **RF07:** el sistema debe mostrar al usuario un resumen con los costos de la compra (neto, IVA y subtotal) más los costos de envío y el total final a pagar.
 
 ### Requerimientos no funcionales
 
-RNF01: el programa debe estar desarrollado en Java
-RNF02: el desarrollo del programa debe ser en un editor de texto (no IDE).
-RNF03: el código debe ser compilado y ejecutado desde una interfaz de línea de comandos (CMD en este caso).
-RNF04: el código y proyecto deben estar documentados.
-RNF05: el proyecto completo (código y documentación) deben estar alojados en un repositorio de GitHub.
+- **RNF01**: el programa debe estar desarrollado en Java
+- **RNF02**: el desarrollo del programa debe ser en un editor de texto (no IDE).
+- **RNF03**: el código debe ser compilado y ejecutado desde una interfaz de línea de comandos (CMD en este caso).
+- **RNF04**: el código y proyecto deben estar documentados.
+- **RNF05**: el proyecto completo (código y documentación) deben estar alojados en un repositorio de GitHub.
 
 ###### Limitación conocida: Los kilómetros de distancia para gastos de envío serán ingresados de forma manual por el usuario al momento de realizar la compra. Esto por la falta de un sistema que detecte de forma automática la distancia de envío mediante el uso de una dirección existente o geolocalización.
